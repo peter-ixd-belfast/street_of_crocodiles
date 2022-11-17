@@ -20,9 +20,23 @@ section,header,footer{
 header, section{
     margin-bottom: 2em;
 }
+
 p, blockquote{
     padding: 0.5rem, 0;
 }
 h1,h2{
-    margin:2rem,0
+    margin:2rem,0;
+    background-color: #022B3A;
+    color:#E1E5F2;
+}
+h1{
+    font-size: 4.236rem;
+}
+h2{
+    font-size:2.618rem; 
+}
+blockquote{
+    font-size:1.618rem;
+    hanging-punctuation: first;
+    text-indent:-0.7rem;
 }
