@@ -1,0 +1,25 @@
+/*--CSS Reset --*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+/*--Start Main Styling --*/
+body{
+    background-color: #E1E5F2;
+    color: #333;
+    font-family:quicksand, sans-serif;
+}
+section,header,footer{
+    width:80%;
+    max-width:700px;
+    margin:auto;
+}
+header, section{
+    margin-bottom: 2em;
+}
+p, blockquote{
+    padding: 0.5rem, 0;
+}
