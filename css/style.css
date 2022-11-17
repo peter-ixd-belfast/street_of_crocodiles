@@ -24,10 +24,13 @@ header, section{
 p, blockquote{
     padding: 0.5rem, 0;
 }
-h1,h2{
-    margin:2rem,0;
+h1, h2{
+    font-family: zeitung, sans-serif;
+    font-style: bold; 
+    margin: 2rem,0;
     background-color: #022B3A;
-    color:#E1E5F2;
+    color: #E1E5F2;
+
 }
 h1{
     font-size: 4.236rem;
