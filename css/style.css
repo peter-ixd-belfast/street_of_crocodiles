@@ -43,9 +43,8 @@ h2{
     font-size:2.618rem; 
 }
 blockquote{
-    font-size:1.618rem;
-    hanging-punctuation: first;
-    text-indent:-0.7rem;
+hanging-punctuation: first;
+text-indent:-0.4rem;
 }
 footer{
     font-size:0.618rem;
