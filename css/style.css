@@ -11,7 +11,7 @@
 body{
     background: #f7f7f7;
     color:#333333;
-    font-family: baskerville-urw, serif;
+    font-family: 'Raleway', sans-serif;
 
 }
 section,header{
@@ -29,7 +29,8 @@ p,blockquote {
 }
 
 h1,h2 {
-    color:rgb(101, 32, 166);  
+    color:rgb(101, 32, 166); 
+    font-family: 'Playfair Display', serif; 
 }
 
 h1{
@@ -44,6 +45,7 @@ h2{
 }
 
 blockquote{
+    font-family: 'Playfair Display', serif;
     font-size:1.4rem;
     font-style:italic;
     color:rgb(101, 32, 166);
