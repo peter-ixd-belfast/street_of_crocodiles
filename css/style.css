@@ -125,6 +125,14 @@ nav a:hover {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
+/*--Image sizing--*/
+.headerimg{
+    max-height: 1024px;
+}
+
+.breakimg{
+    max-height: 256px;
+}
 /*-- Styling the Table--*/
 table{
     margin:auto;
