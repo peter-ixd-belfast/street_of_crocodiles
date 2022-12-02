@@ -68,12 +68,12 @@ blockquote cite{
 /*--Styling Links--*/
 
 a{
-    color:rgb(101, 32, 166);
+    color:#820933;
     text-decoration: none;
 }
 
 a:hover{
-    color:rgb(151, 40, 255);
+    color:#4f000c;
     transition: all 0.3s ease-in-out;
     border-bottom: 1px dotted;
 
@@ -115,63 +115,11 @@ nav a {
 
 nav a:hover {
     border-bottom: none;
-    color:rgb(151, 40, 255);
+    color:#4f000c;
     transition: all 0.3s ease-in-out;
 }
-/*--Style the CSS Grid--*/
-.gridimage{
-    display: grid;
-    column-gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-}
 
 
-/*-- Styling the Table--*/
-table{
-    margin:auto;
-    display:table;
-    border-collapse:collapse;
-    border-spacing: 2px;
-    margin-bottom:2rem;
-    width:100%;
-    }
-
-    caption{
-        margin: 1.5em 0;
-        text-transform:uppercase;
-        letter-spacing:0.5px;
-    }
-
-    th{
-        text-transform:uppercase;
-        font-weight:normal;
-        text-align:left;
-        color:#f7f7f7;
-        background:rgb(101, 32, 166);
-    }
-    th,td{
-        padding:+0.4em;
-    }
-
-    table, td{
-        background:rgb(198, 137, 255);
-        border: 2px solid #f7f7f7;
-    }
-    /*-- Image Styling--*/
-    img{
-        display: block;
-        margin-bottom:2rem;
-        width:100%;
-        padding:0;
-    }
-    /*-- Styling the Horizontal Rule--*/
-    hr{
-        margin: 1rem 0;
-        height: 1px;
-        background-color:rgb(101, 32, 166);
-        color:rgb(101, 32, 166);
-        border: none;
-    }
 
 /*--Styling the Footer--*/
 footer { 
@@ -214,9 +162,9 @@ footer {
     .connections svg { 
     margin: 1em auto;} 
     .connections a:hover svg path { 
-    fill: rgb(198, 137, 255); 
+    fill: #4f000c; 
     transition: all 0.2s ease-in-out;} 
     footer .connections a:hover svg path { 
-    fill: rgb(198, 137, 255); 
+    fill: #4f000c; 
     transition: all 0.2s ease-in-out;} 
     
