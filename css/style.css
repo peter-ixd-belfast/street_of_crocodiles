@@ -95,12 +95,13 @@ nav ul{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    align-content:right;
+    
 }
 nav ul li {
     display: inline;
     margin: 20px;
     background: none;
+    align-content:right;
 
 
 }
