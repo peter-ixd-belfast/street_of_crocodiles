@@ -115,7 +115,7 @@ nav a {
 
 nav a:hover {
     border-bottom: none;
-    color:#b6435c;
+    color:#ffff8e;
     transition: all 0.3s ease-in-out;
 }
 
