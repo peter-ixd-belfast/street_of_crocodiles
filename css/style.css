@@ -73,7 +73,7 @@ a{
 }
 
 a:hover{
-    color:#4f000c;
+    color:#b6435c;
     transition: all 0.3s ease-in-out;
     border-bottom: 1px dotted;
 
@@ -115,7 +115,7 @@ nav a {
 
 nav a:hover {
     border-bottom: none;
-    color:#4f000c;
+    color:#b6435c;
     transition: all 0.3s ease-in-out;
 }
 
@@ -162,9 +162,9 @@ footer {
     .connections svg { 
     margin: 1em auto;} 
     .connections a:hover svg path { 
-    fill: #4f000c; 
+    fill: #b6435c; 
     transition: all 0.2s ease-in-out;} 
     footer .connections a:hover svg path { 
-    fill: #4f000c; 
+    fill: #b6435c; 
     transition: all 0.2s ease-in-out;} 
     
