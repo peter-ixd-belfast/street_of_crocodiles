@@ -123,6 +123,7 @@ nav a:hover {
 }
 
 img{
+    max-height: 1000px;
     height: 100%;
 }
 
