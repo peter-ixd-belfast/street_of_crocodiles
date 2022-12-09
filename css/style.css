@@ -82,6 +82,9 @@ a:hover{
 /*-- Navigation--*/
 
 nav{
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: row;
     position: fixed;
     top: 0;
     left: 0;
@@ -95,9 +98,7 @@ nav{
 }
 
 nav ul{
-    display: inline-flex;
-    justify-content: flex-end;
-    flex-direction: row;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
     
