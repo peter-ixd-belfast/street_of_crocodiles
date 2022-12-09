@@ -95,15 +95,16 @@ nav{
 }
 
 nav ul{
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: row;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
     
 }
 nav ul li {
-    display: inline-flex;
-    justify-content: flex-end;
-    flex-direction: row;
+
     margin: 20px;
     padding-right: 1.5rem;
     background: none;
