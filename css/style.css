@@ -102,9 +102,10 @@ nav ul{
 }
 nav ul li {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
+    flex-direction: row;
     margin: 20px;
+    padding-right: 1.5rem;
     background: none;
    
 
