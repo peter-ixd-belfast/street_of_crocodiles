@@ -64,7 +64,7 @@ blockquote cite{
 
 }
 .leader{
-    text-transform:uppercase;
+    font-weight:400;
 }
 
 /*--Styling Links--*/
@@ -125,7 +125,8 @@ nav a:hover {
 }
 
 img{
-    width:100%
+    width:100%;
+    margin:1rem 0 1rem 0;
 }
 
 /*--Styling the Footer--*/
@@ -134,7 +135,7 @@ footer {
     text-align: center; 
     font-size: 0.75rem; 
     color: #F2CD5D; 
-    padding: 4em 0 3em 0 
+    padding: 4em 0 3em 0; 
     } 
     
     footer p { 
