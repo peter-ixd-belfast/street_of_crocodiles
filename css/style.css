@@ -27,7 +27,7 @@ header,section{
 }
 p,blockquote {
     padding: 0.5rem 0;
-    line-height: 1.3;
+    line-height: 1.5em;
 }
 
 h1,h2 {
@@ -64,7 +64,7 @@ blockquote cite{
 
 }
 .leader{
-    font-weight:400;
+    font-weight:600;
 }
 
 /*--Styling Links--*/
@@ -131,6 +131,7 @@ img{
 
 /*--Styling the Footer--*/
 footer { 
+    margin-top: 2rem;
     background: #820933; 
     text-align: center; 
     font-size: 0.75rem; 
@@ -140,7 +141,7 @@ footer {
     
     footer p { 
     margin: auto;
-    max-width:80% 
+    max-width:80%; 
     } 
     
     .connections{ 
