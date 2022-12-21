@@ -12,6 +12,7 @@ body{
     background: #f7f7f7;
     color:#333333;
     font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
 
 }
 section,header{
@@ -20,6 +21,7 @@ section,header{
     margin:auto;
 }
 header,section{
+    margin-top: 2rem;
     margin-bottom: 2rem;
 
 }
@@ -100,7 +102,7 @@ nav ul{
     flex-direction: row;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     
 }
 nav ul li {
