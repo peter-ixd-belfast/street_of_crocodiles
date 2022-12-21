@@ -66,6 +66,9 @@ blockquote cite{
 .leader{
     font-weight:600;
 }
+.bottom{
+    margin-bottom: 2rem;
+}
 
 /*--Styling Links--*/
 
@@ -131,7 +134,6 @@ img{
 
 /*--Styling the Footer--*/
 footer { 
-    margin-top: 2rem;
     background: #820933; 
     text-align: center; 
     font-size: 0.75rem; 
