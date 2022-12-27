@@ -34,6 +34,7 @@ p,blockquote {
 h1,h2 {
     color:#820933; 
     font-family: 'Playfair Display', serif; 
+    line-height:1.5em;
 }
 
 h1{
@@ -187,24 +188,37 @@ footer {
     /*--Media Queries--*/
 @media (max-width: 480px) {
     body{
-        font-size: 12px;
-    }
-}
-@media (max-width: 800px) {
-    body{
-    font-size: 14px;
+        font-size: 0.75em;
     }
     section,header{
         width:90%;
         max-width:800px;
     }
     h1{
-        font-size: 59.30px;
+        font-size: 4.236rem;
     }
     h2{
-        font-size: 22.65px;
+        font-size: 1.618em;
     }
     blockquote{
-        font-size: 22.65px;
+        font-size: 1.618em;
+    }
+}
+@media (max-width: 800px) {
+    body{
+    font-size: 0.875em;
+    }
+    section,header{
+        width:90%;
+        max-width:800px;
+    }
+    h1{
+        font-size: 4.236em;
+    }
+    h2{
+        font-size: 1.618em;
+    }
+    blockquote{
+        font-size: 1.618em;
     }
 }
