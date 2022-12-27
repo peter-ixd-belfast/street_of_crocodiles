@@ -16,6 +16,19 @@
     body{
     font-size: 14px;
     }
+    section,header{
+        width:90%;
+        max-width:800px;
+    }
+    h1{
+        font-size: 4.236rem;
+    }
+    h2{
+        font-size: 1.618rem;
+    }
+    blockquote{
+        font-size: 1.618rem;
+    }
 }
 
 /*--Start Main Styling --*/
@@ -48,21 +61,21 @@ h1,h2 {
 }
 
 h1{
-    font-size: 5.653rem;
+    font-size: 4.236rem;
     margin-top: 5rem;
     padding-bottom:0;
     text-align: center;
 }
 
 h2{
-    font-size: 1.999rem;
+    font-size: 1.618rem;
     margin: 2rem 0 2rem 0;
     text-align: center;
 }
 
 blockquote{
     font-family: 'Playfair Display', serif;
-    font-size:1.4rem;
+    font-size:1.618rem;
     font-style:italic;
     color:#820933;
     hanging-punctuation: first;
@@ -113,7 +126,7 @@ nav{
     opacity: 85%;
     padding: 1.5rem 0 1.5rem 1.5rem;
     font-family: 'Playfair Display', serif; 
-    font-size: 0.75rem;
+    
 }
 
 nav ul{
@@ -153,7 +166,6 @@ img{
 footer { 
     background: #820933; 
     text-align: center; 
-    font-size: 0.75rem; 
     color: #F2CD5D; 
     padding: 4em 0 3em 0; 
     } 
