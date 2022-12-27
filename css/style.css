@@ -103,7 +103,7 @@ nav{
     opacity: 85%;
     padding: 1.5rem 0 1.5rem 1.5rem;
     font-family: 'Playfair Display', serif; 
-    
+    font-size: 0.85em;
 }
 
 nav ul{
@@ -149,7 +149,8 @@ footer {
     
     footer p { 
     margin: auto;
-    max-width:80%; 
+    max-width:80%;
+    font-size: 0.85em; 
     } 
     
     .connections{ 
