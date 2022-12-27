@@ -71,6 +71,7 @@ blockquote cite{
 }
 
 .breakimg{
+    max-height: 800px;
     height:75%;
 }
 
