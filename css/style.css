@@ -6,6 +6,18 @@
     font-weight: normal;
     line-height: 1em;
 }
+/*--Media Queries--*/
+@media (max-width: 480px) {
+    body{
+        font-size: 12px;
+    }
+}
+@media (max-width: 800px) {
+    body{
+    font-size: 14px;
+    }
+}
+
 /*--Start Main Styling --*/
 
 body{
@@ -36,7 +48,6 @@ h1,h2 {
 }
 
 h1{
-    max-width: 1200px;
     font-size: 5.653rem;
     margin-top: 5rem;
     padding-bottom:0;
