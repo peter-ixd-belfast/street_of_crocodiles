@@ -6,30 +6,6 @@
     font-weight: normal;
     line-height: 1em;
 }
-/*--Media Queries--*/
-@media (max-width: 480px) {
-    body{
-        font-size: 12px;
-    }
-}
-@media (max-width: 800px) {
-    body{
-    font-size: 14px;
-    }
-    section,header{
-        width:90%;
-        max-width:800px;
-    }
-    h1{
-        font-size: 4.236rem;
-    }
-    h2{
-        font-size: 1.618rem;
-    }
-    blockquote{
-        font-size: 1.618rem;
-    }
-}
 
 /*--Start Main Styling --*/
 
@@ -207,4 +183,28 @@ footer {
     footer .connections a:hover svg path { 
     fill: #b6435c; 
     transition: all 0.2s ease-in-out;} 
-    
+   
+    /*--Media Queries--*/
+@media (max-width: 480px) {
+    body{
+        font-size: 12px;
+    }
+}
+@media (max-width: 800px) {
+    body{
+    font-size: 14px;
+    }
+    section,header{
+        width:90%;
+        max-width:800px;
+    }
+    h1{
+        font-size: 4.236rem;
+    }
+    h2{
+        font-size: 1.618rem;
+    }
+    blockquote{
+        font-size: 1.618rem;
+    }
+}
